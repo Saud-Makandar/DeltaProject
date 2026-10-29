@@ -1,0 +1,45 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.shape{
+    height: 5rem;
+    width: 5rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box2{
+    transform: rotate(45deg);
+    margin-top: 25px;
+}
+#box2 span{
+    transform: rotate(-45deg);
+}
+#box3{
+    border-radius: 50%;
+}
+#box1:hover{
+    background-color: aqua;
+}
+#box2:hover{
+    background-color: Red;
+}
+#box3:hover{
+    background-color: yellow;
+}

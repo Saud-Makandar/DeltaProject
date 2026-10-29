@@ -1,0 +1,14 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    text-align-last: center;
+    color: aquamarine;
+    background-color: pink;
+}
+p{
+    color: black;
+    background-color: aqua;
+    font-style: italic;
+}

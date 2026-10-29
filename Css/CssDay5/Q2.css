@@ -1,0 +1,22 @@
+html,body{
+    height: 100%;
+    width:100;
+}
+#main{
+    height: 50px;
+    width: 900px;
+    display: flex;
+    background-color: pink;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    
+}
+.sub{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    padding: 10px 0;
+}
+#l{
+    margin-right: 10px;
+}

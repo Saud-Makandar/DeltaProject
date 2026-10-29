@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    margin-top: 15px;
+    width: 75px;
+    height: 75px;
+    border: 2px solid black;
+    margin-right: 12px;
+    border-radius: 10px;
+}
+.salmon{
+    background-color: salmon;
+}
+.green{
+    background-color: green;
+}
+.cyan{
+    background-color: cyan;
+}
+.yellow{
+    background-color: yellow;
+}
+.flash{
+    background-color: white;
+}
+.uflash{
+    background-color: pink;
+}

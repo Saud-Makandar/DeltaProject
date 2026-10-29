@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(135deg, #ffeaf4, #e0f7ff);
+}
+
+h2{
+    font-size:32px;
+    margin-bottom:10px;
+    color:#444;
+}
+
+p{
+    font-size:20px;
+    margin-bottom:20px;
+    color:#666;
+}
+
+#main{
+    display:grid;
+    grid-template-columns: repeat(2, 120px);
+    gap:20px;
+}
+
+.box{
+    height:120px;
+    width:120px;
+    border-radius:25px;
+    cursor:pointer;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Cute pastel colors */
+.red{
+    background-color: #ff9aa2;
+}
+
+.green{
+    background-color: #ffdac1;
+}
+
+.pink{
+    background-color: #b5ead7;
+}
+
+.purple{
+    background-color: #c7ceea;
+}
+
+/* Flash effect */
+.flash{
+    background-color:white !important;
+    transform: scale(1.1);
+}
+
+/* User click effect */
+.userflash{
+    background-color:#fff3b0 !important;
+    transform: scale(0.95);
+}

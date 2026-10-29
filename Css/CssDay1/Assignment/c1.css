@@ -1,0 +1,25 @@
+*{
+    font-family: Georgia;
+    text-align: center;
+}
+h3{
+    color: black;
+    text-align: center;
+}
+a{
+    color: rgb(0,255,0);
+    text-decoration: none;
+}
+button{
+    background-color: white;
+    color: blueviolet;
+}
+textarea{
+    color: black;
+}
+p{
+    line-height: 30px;
+}
+span{
+    text-decoration:underline wavy lawngreen
+}

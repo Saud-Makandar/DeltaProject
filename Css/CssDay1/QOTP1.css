@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+    text-decoration: wavy pink overline;
+    letter-spacing: 15px;
+    font-family: fantasy;
+}
+p{
+    line-height: normal;
+}

@@ -1,0 +1,34 @@
+.main{
+    background-color: orange;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+#eyes1{
+    background-color: black;
+    border-radius: 50px;
+    position: absolute;
+    top:100px;
+    left: 100px;
+    height: 50px;
+    width: 50px;
+}
+#eyes2{
+    background-color: black;
+    border-radius: 50px;
+    position: absolute;
+    top:100px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+}
+#mouth{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    height: 75px;
+    width: 200px;
+    background-color: red;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}

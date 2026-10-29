@@ -1,0 +1,54 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    font-family: Cambria;
+    text-align: center;
+}
+.ex1{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+hr{
+    border: 2px double black;
+}
+.ex2{
+    height: 200px;
+    width: 200px;
+    background-color: voilet;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.ex3{
+    height: 200px;
+    width: 200px;
+    background-color: indigo;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.ex4{
+    height: 200px;
+    width: 200px;
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.ex5{
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.parent{
+    height: 1000px;
+    width: 1000px;
+    display: flex;
+    border: 2px solid black ;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}

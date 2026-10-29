@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gupshup</title>
+</head>
+<body>
+    <h1>All Chats</h1>
+    <% for(let txt of chat){ %>
+    <div class="chats">
+        <p>From : <%=txt.from%></p>
+        <div class="msg">
+            <p>From : <%=txt.msg%></p>
+        </div>
+        <p>Received by<%=txt.to%></p>
+    </div>
+<%}%>
+</body>
+</html>

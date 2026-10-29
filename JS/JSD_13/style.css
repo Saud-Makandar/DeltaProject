@@ -1,0 +1,132 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    overflow:hidden;
+}
+
+/* Animated background bubbles */
+
+body::before{
+    content:"";
+    position:absolute;
+    width:600px;
+    height:600px;
+    background: radial-gradient(circle,#ff00cc,#3333ff);
+    border-radius:50%;
+    filter:blur(200px);
+    animation: move1 12s infinite alternate;
+}
+
+body::after{
+    content:"";
+    position:absolute;
+    width:500px;
+    height:500px;
+    background: radial-gradient(circle,#00ffcc,#0066ff);
+    border-radius:50%;
+    filter:blur(200px);
+    animation: move2 14s infinite alternate;
+}
+
+@keyframes move1{
+    from{transform:translate(-200px,-200px);}
+    to{transform:translate(200px,200px);}
+}
+
+@keyframes move2{
+    from{transform:translate(300px,200px);}
+    to{transform:translate(-200px,-200px);}
+}
+
+/* Main card */
+
+.container{
+    position:relative;
+    width:420px;
+    padding:40px;
+    text-align:center;
+    border-radius:25px;
+    backdrop-filter:blur(20px);
+    background:rgba(255,255,255,0.1);
+    border:1px solid rgba(255,255,255,0.2);
+    box-shadow:0 20px 50px rgba(0,0,0,0.5);
+    color:white;
+    transition:0.4s;
+}
+
+.container:hover{
+    transform:scale(1.03);
+    box-shadow:0 25px 70px rgba(0,0,0,0.7);
+}
+
+h1{
+    font-size:32px;
+    margin-bottom:25px;
+    letter-spacing:1px;
+}
+
+p{
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:30px;
+    min-height:80px;
+}
+
+/* Button styling */
+
+button{
+    padding:14px 35px;
+    font-size:16px;
+    font-weight:600;
+    border:none;
+    border-radius:40px;
+    cursor:pointer;
+    background:linear-gradient(45deg,#ff00cc,#3333ff);
+    color:white;
+    letter-spacing:1px;
+    transition:all 0.35s ease;
+    box-shadow:0 10px 25px rgba(0,0,0,0.4);
+}
+
+/* Hover animation */
+
+button:hover{
+    transform:translateY(-4px) scale(1.05);
+    box-shadow:0 15px 40px rgba(0,0,0,0.6);
+}
+
+/* Click effect */
+
+button:active{
+    transform:scale(0.95);
+}
+
+/* Text animation */
+
+p{
+    animation:fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(10px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}

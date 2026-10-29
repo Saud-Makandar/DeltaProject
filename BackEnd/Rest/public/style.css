@@ -1,0 +1,46 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+body,html{
+    height: 100%;
+    width:  100%;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px;
+}
+h1{
+    color: maroon;
+}
+.post{width: 50%;
+    background-color: aqua;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.post h3{
+    margin-bottom: 8px;
+}
+
+.post h4{
+    margin-bottom: 8px;
+}
+a{
+    text-decoration: none;
+    color: maroon;
+}
+.new{
+    height: 50px;
+    width: 150px;
+    background-color: aqua;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: maroon;
+}
+p{
+    margin-top: 15px;
+    margin-bottom: 15px;;
+}

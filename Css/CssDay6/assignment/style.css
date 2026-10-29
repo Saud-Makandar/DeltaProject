@@ -1,0 +1,17 @@
+.loader {
+  border: 16px solid #f3f3f3;       /* Light grey border */
+  border-top: 16px solid goldenrod; /* Top border in goldenrod */
+  border-radius: 50%;               /* Make it circular */
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite; /* Apply spin animation */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);   /* Set rotation to 0 degrees */
+  }
+  100% {
+    transform: rotate(360deg); /* Set rotation to 360 degrees */
+  }
+}

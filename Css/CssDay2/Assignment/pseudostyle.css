@@ -1,0 +1,10 @@
+button:hover{
+    color: blue;
+    background-color: yellow;
+}
+h1::first-letter{
+    color: red;
+}
+input[type="checkbox"]:checked+label{
+    color: darkgreen;
+}

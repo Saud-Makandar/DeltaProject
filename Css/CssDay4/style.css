@@ -1,0 +1,14 @@
+div{
+    height: 250px;
+    width: 500px;
+    border: 2px solid black;
+    transition: 3s;
+    background-color: burlywood;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px black;
+}
+/* div:hover{
+    border-radius: 50px;
+    background-color: aqua;
+} */
